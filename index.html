@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Enter city name" spellcheck="false">
+            <button class="search-button">
+                <img src="images/search.png" alt="Search">
+            </button>
+        </div>
+        <div class="error-message"></div>
+        <div class="weather">
+            <img src="images/rain.png" alt="Weather Icon" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New Delhi</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity">
+                    <div>
+                        <span class="humidity-value">50%</span>
+                        <span>Humidity</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind Speed">
+                    <div>
+                        <span class="wind-speed">15 km/h</span>
+                        <span>Wind Speed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="signature">
+        • By Nishant Kumar · <a class="github" href="https://github.com/Nishant6120">GitHub</a>
+    </div> 
+
+    <script src="script.js"></script>
+
+</body>
+</html>
